@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0398CE8946C3E7E69F1334E1 /* Pods_Bandio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4B69711CA392EBF23FCA4E /* Pods_Bandio.framework */; };
+		E2228DC423A659F700FEC695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2228DC323A659F700FEC695 /* AppDelegate.swift */; };
+		E2228DC623A659F700FEC695 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2228DC523A659F700FEC695 /* SplashScreen.swift */; };
+		E2228DC923A659F700FEC695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2228DC723A659F700FEC695 /* Main.storyboard */; };
+		E2228DCB23A659FD00FEC695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2228DCA23A659FD00FEC695 /* Assets.xcassets */; };
+		E2228DCE23A659FD00FEC695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2228DCC23A659FD00FEC695 /* LaunchScreen.storyboard */; };
+		E2228DD923A6680600FEC695 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2228DD823A6680600FEC695 /* LoginViewController.swift */; };
+		E2228DDF23A68AF000FEC695 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2228DDE23A68AF000FEC695 /* Urls.swift */; };
+		E2228DE223A68F0A00FEC695 /* AlertBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2228DE123A68F0A00FEC695 /* AlertBase.swift */; };
+		E2228DE423A6932400FEC695 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2228DE323A6932400FEC695 /* LoginModel.swift */; };
+		E2BBAC0F23A8FFA900E9ADA6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BBAC0E23A8FFA900E9ADA6 /* HomeViewController.swift */; };
+		E2BBAC1323A91E5200E9ADA6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BBAC1223A91E5200E9ADA6 /* MenuViewController.swift */; };
+		E2BBAC1823A9315A00E9ADA6 /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BBAC1723A9315A00E9ADA6 /* SliderCollectionViewCell.swift */; };
+		E2BBAC1A23A9333A00E9ADA6 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BBAC1923A9333A00E9ADA6 /* HomeModel.swift */; };
+		E2E9DDA623A7B9CE00971BB9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E9DDA523A7B9CE00971BB9 /* RegisterViewController.swift */; };
+		E2E9DDA823A7E00000971BB9 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E9DDA723A7E00000971BB9 /* RegisterModel.swift */; };
+		E2F4679C23AA5CBB00C83471 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4679A23AA5CBA00C83471 /* SWRevealViewController.m */; };
+		E2F4679E23AA6FA700C83471 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4679D23AA6FA700C83471 /* MenuTableViewCell.swift */; };
+		E2F8E4C323AA86F100606C66 /* CollectionHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F8E4C223AA86F100606C66 /* CollectionHomeCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E4B69711CA392EBF23FCA4E /* Pods_Bandio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bandio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4FFF2A05AA9C84C7B5A0326 /* Pods-Bandio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bandio.release.xcconfig"; path = "Target Support Files/Pods-Bandio/Pods-Bandio.release.xcconfig"; sourceTree = "<group>"; };
+		E2228DC023A659F700FEC695 /* Bandio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bandio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2228DC323A659F700FEC695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2228DC523A659F700FEC695 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		E2228DC823A659F700FEC695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2228DCA23A659FD00FEC695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2228DCD23A659FD00FEC695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2228DCF23A659FD00FEC695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2228DD823A6680600FEC695 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E2228DDE23A68AF000FEC695 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		E2228DE123A68F0A00FEC695 /* AlertBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBase.swift; sourceTree = "<group>"; };
+		E2228DE323A6932400FEC695 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		E2BBAC0E23A8FFA900E9ADA6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E2BBAC1223A91E5200E9ADA6 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E2BBAC1723A9315A00E9ADA6 /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		E2BBAC1923A9333A00E9ADA6 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		E2E9DDA523A7B9CE00971BB9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E2E9DDA723A7E00000971BB9 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		E2F4679923AA5CBA00C83471 /* Bandio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bandio-Bridging-Header.h"; sourceTree = "<group>"; };
+		E2F4679A23AA5CBA00C83471 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		E2F4679B23AA5CBB00C83471 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		E2F4679D23AA6FA700C83471 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		E2F8E4C223AA86F100606C66 /* CollectionHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		F6F36BB0FAAA2CFD578CA97A /* Pods-Bandio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bandio.debug.xcconfig"; path = "Target Support Files/Pods-Bandio/Pods-Bandio.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2228DBD23A659F700FEC695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0398CE8946C3E7E69F1334E1 /* Pods_Bandio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D08694E323503B1FDB1CEFCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E4B69711CA392EBF23FCA4E /* Pods_Bandio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2228DB723A659F700FEC695 = {
+			isa = PBXGroup;
+			children = (
+				E2228DC223A659F700FEC695 /* Bandio */,
+				E2228DC123A659F700FEC695 /* Products */,
+				F718F1898901DE0E3A5441D7 /* Pods */,
+				D08694E323503B1FDB1CEFCF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2228DC123A659F700FEC695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2228DC023A659F700FEC695 /* Bandio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2228DC223A659F700FEC695 /* Bandio */ = {
+			isa = PBXGroup;
+			children = (
+				E2228DE023A68EF500FEC695 /* AlertBase */,
+				E2228DDA23A687AC00FEC695 /* Api */,
+				E2228DD523A65AD800FEC695 /* Model */,
+				E2228DD623A65AE700FEC695 /* View */,
+				E2228DD723A65B1700FEC695 /* Controller */,
+				E2228DC323A659F700FEC695 /* AppDelegate.swift */,
+				E2228DCA23A659FD00FEC695 /* Assets.xcassets */,
+				E2228DCC23A659FD00FEC695 /* LaunchScreen.storyboard */,
+				E2228DCF23A659FD00FEC695 /* Info.plist */,
+				E2F4679B23AA5CBB00C83471 /* SWRevealViewController.h */,
+				E2F4679A23AA5CBA00C83471 /* SWRevealViewController.m */,
+				E2F4679923AA5CBA00C83471 /* Bandio-Bridging-Header.h */,
+			);
+			path = Bandio;
+			sourceTree = "<group>";
+		};
+		E2228DD523A65AD800FEC695 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2228DE323A6932400FEC695 /* LoginModel.swift */,
+				E2E9DDA723A7E00000971BB9 /* RegisterModel.swift */,
+				E2BBAC1923A9333A00E9ADA6 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2228DD623A65AE700FEC695 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2228DC723A659F700FEC695 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2228DD723A65B1700FEC695 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2BBAC1623A92E9B00E9ADA6 /* Authencation */,
+				E2BBAC1C23A9386B00E9ADA6 /* Home */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2228DDA23A687AC00FEC695 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				E2228DDE23A68AF000FEC695 /* Urls.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		E2228DE023A68EF500FEC695 /* AlertBase */ = {
+			isa = PBXGroup;
+			children = (
+				E2228DE123A68F0A00FEC695 /* AlertBase.swift */,
+			);
+			path = AlertBase;
+			sourceTree = "<group>";
+		};
+		E2BBAC1623A92E9B00E9ADA6 /* Authencation */ = {
+			isa = PBXGroup;
+			children = (
+				E2228DC523A659F700FEC695 /* SplashScreen.swift */,
+				E2228DD823A6680600FEC695 /* LoginViewController.swift */,
+				E2E9DDA523A7B9CE00971BB9 /* RegisterViewController.swift */,
+			);
+			path = Authencation;
+			sourceTree = "<group>";
+		};
+		E2BBAC1B23A9385300E9ADA6 /* SliderHome */ = {
+			isa = PBXGroup;
+			children = (
+				E2BBAC0E23A8FFA900E9ADA6 /* HomeViewController.swift */,
+				E2BBAC1723A9315A00E9ADA6 /* SliderCollectionViewCell.swift */,
+			);
+			path = SliderHome;
+			sourceTree = "<group>";
+		};
+		E2BBAC1C23A9386B00E9ADA6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E2F8E4C123AA86C800606C66 /* collectioonHome */,
+				E2BBAC1B23A9385300E9ADA6 /* SliderHome */,
+				E2BBAC2123A9463A00E9ADA6 /* sideMenu */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E2BBAC2123A9463A00E9ADA6 /* sideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E2BBAC1223A91E5200E9ADA6 /* MenuViewController.swift */,
+				E2F4679D23AA6FA700C83471 /* MenuTableViewCell.swift */,
+			);
+			path = sideMenu;
+			sourceTree = "<group>";
+		};
+		E2F8E4C123AA86C800606C66 /* collectioonHome */ = {
+			isa = PBXGroup;
+			children = (
+				E2F8E4C223AA86F100606C66 /* CollectionHomeCollectionViewCell.swift */,
+			);
+			path = collectioonHome;
+			sourceTree = "<group>";
+		};
+		F718F1898901DE0E3A5441D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6F36BB0FAAA2CFD578CA97A /* Pods-Bandio.debug.xcconfig */,
+				D4FFF2A05AA9C84C7B5A0326 /* Pods-Bandio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2228DBF23A659F700FEC695 /* Bandio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2228DD223A659FD00FEC695 /* Build configuration list for PBXNativeTarget "Bandio" */;
+			buildPhases = (
+				893A8C54EDFECE32727CAFD3 /* [CP] Check Pods Manifest.lock */,
+				E2228DBC23A659F700FEC695 /* Sources */,
+				E2228DBD23A659F700FEC695 /* Frameworks */,
+				E2228DBE23A659F700FEC695 /* Resources */,
+				CC972F34A6489B37F9F32954 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bandio;
+			productName = Bandio;
+			productReference = E2228DC023A659F700FEC695 /* Bandio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2228DB823A659F700FEC695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = MostafaASHRAF;
+				TargetAttributes = {
+					E2228DBF23A659F700FEC695 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = E2228DBB23A659F700FEC695 /* Build configuration list for PBXProject "Bandio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2228DB723A659F700FEC695;
+			productRefGroup = E2228DC123A659F700FEC695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2228DBF23A659F700FEC695 /* Bandio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2228DBE23A659F700FEC695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2228DCE23A659FD00FEC695 /* LaunchScreen.storyboard in Resources */,
+				E2228DCB23A659FD00FEC695 /* Assets.xcassets in Resources */,
+				E2228DC923A659F700FEC695 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		893A8C54EDFECE32727CAFD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bandio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC972F34A6489B37F9F32954 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bandio/Pods-Bandio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bandio/Pods-Bandio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bandio/Pods-Bandio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2228DBC23A659F700FEC695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F8E4C323AA86F100606C66 /* CollectionHomeCollectionViewCell.swift in Sources */,
+				E2F4679C23AA5CBB00C83471 /* SWRevealViewController.m in Sources */,
+				E2228DD923A6680600FEC695 /* LoginViewController.swift in Sources */,
+				E2F4679E23AA6FA700C83471 /* MenuTableViewCell.swift in Sources */,
+				E2BBAC1823A9315A00E9ADA6 /* SliderCollectionViewCell.swift in Sources */,
+				E2BBAC1323A91E5200E9ADA6 /* MenuViewController.swift in Sources */,
+				E2228DE423A6932400FEC695 /* LoginModel.swift in Sources */,
+				E2E9DDA623A7B9CE00971BB9 /* RegisterViewController.swift in Sources */,
+				E2228DC623A659F700FEC695 /* SplashScreen.swift in Sources */,
+				E2E9DDA823A7E00000971BB9 /* RegisterModel.swift in Sources */,
+				E2BBAC0F23A8FFA900E9ADA6 /* HomeViewController.swift in Sources */,
+				E2BBAC1A23A9333A00E9ADA6 /* HomeModel.swift in Sources */,
+				E2228DC423A659F700FEC695 /* AppDelegate.swift in Sources */,
+				E2228DDF23A68AF000FEC695 /* Urls.swift in Sources */,
+				E2228DE223A68F0A00FEC695 /* AlertBase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2228DC723A659F700FEC695 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2228DC823A659F700FEC695 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2228DCC23A659FD00FEC695 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2228DCD23A659FD00FEC695 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2228DD023A659FD00FEC695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2228DD123A659FD00FEC695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2228DD323A659FD00FEC695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F36BB0FAAA2CFD578CA97A /* Pods-Bandio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Bandio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ma.Bandio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bandio/Bandio-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2228DD423A659FD00FEC695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4FFF2A05AA9C84C7B5A0326 /* Pods-Bandio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Bandio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ma.Bandio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bandio/Bandio-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2228DBB23A659F700FEC695 /* Build configuration list for PBXProject "Bandio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2228DD023A659FD00FEC695 /* Debug */,
+				E2228DD123A659FD00FEC695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2228DD223A659FD00FEC695 /* Build configuration list for PBXNativeTarget "Bandio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2228DD323A659FD00FEC695 /* Debug */,
+				E2228DD423A659FD00FEC695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2228DB823A659F700FEC695 /* Project object */;
+}

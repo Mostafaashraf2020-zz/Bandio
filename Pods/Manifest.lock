@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BorderedView (0.1.0)
+  - SDWebImage (5.3.2):
+    - SDWebImage/Core (= 5.3.2)
+  - SDWebImage/Core (5.3.2)
+  - SideMenuSwift (2.0.3)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - BorderedView
+  - SDWebImage
+  - SideMenuSwift
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BorderedView
+    - SDWebImage
+    - SideMenuSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BorderedView: d5a4373310d6c7c0fa922eade7ca13672541dad8
+  SDWebImage: 6ac2eb96571bff96ecde31a987172c5934a0eb7d
+  SideMenuSwift: 5c2b1496544ce3f1f08f4dddf4810eaac49f543d
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 747359ab2f1828b6286c499ad187516d98f98c01
+
+COCOAPODS: 1.8.4
